@@ -393,6 +393,10 @@ a.forumtitle:hover, a.topictitle:hover {
 	display: none;
 }
 
+.sticky a::before {
+	content: "Stickied: "
+}
+
 /* Image stuff */
 
 .forums dl.row-item { 
