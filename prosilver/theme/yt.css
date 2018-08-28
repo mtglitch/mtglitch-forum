@@ -1,0 +1,104 @@
+/* Youtube */
+
+    .youtube-player {
+      position: relative;
+      padding-bottom: 0px;
+      height: 360px;
+      width: 640px;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+      margin: 5px;
+    }
+    
+    .youtube-player iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      background: transparent;
+    }
+    
+    .youtube-player img {
+      bottom: 0;
+      display: block;
+      left: 0;
+      margin: auto;
+      max-width: 100%;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: none;
+      height: auto;
+      cursor: pointer;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      transition: .4s all;
+    }
+    
+    .youtube-player .play {
+      height: 72px;
+      width: 72px;
+      left: 50%;
+      top: 50%;
+      margin-left: -36px;
+      margin-top: -36px;
+      position: absolute;
+      background: url("http://i.imgur.com/rSiOSnC.png") no-repeat;
+      cursor: pointer;
+      opacity: 0.92;
+    }
+
+    .youtube-player:hover .play {
+      background: url("http://i.imgur.com/EbtL3MQ.png") no-repeat;
+      transition: .1s linear;
+    }
+    
+    .youtube-player::after {
+      content: '';
+      pointer-events: none;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      background: -moz-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0) 20%);
+    }
+    
+    .player-title {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      top: 0px;
+      z-index: 2;
+      max-width: 100%;
+      padding-left: 4px;
+      padding-top: 12px;
+      overflow: hidden;
+      white-space: nowrap;
+      word-wrap: normal;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      vertical-align: top;
+      font-size: 18px;
+      font-family: "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+      color: #eee;
+      text-align: left;
+      direction: ltr;
+      text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+      line-height: 1.3;
+      background: none;
+    }
+    
+    .player-title a {
+      color: inherit;
+      cursor: inherit;
+      text-decoration: inherit;
+    }
