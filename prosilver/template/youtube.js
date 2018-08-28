@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",
   function() {
     $(".youtube-player").each(function(i) {
-      this.attr("data-id", YouTubeGetID(this.attr("yt-url")));
+      $(this).attr("data-id", YouTubeGetID($(this).attr("yt-url")));
     });
 
     var div, n, ids, queryIds, nameRequest,
