@@ -46,6 +46,10 @@ a:active {
 	margin-bottom: 8px;
 	padding: 0px;
 }
+.post .inner {
+	background: url('./images/hack.gif') repeat-y;
+	background-position: 202px 0px; 
+}
 .postprofile a {
 	color: #000;
 	text-decoration: underline;
@@ -55,8 +59,7 @@ a:active {
 	text-decoration: none;
 }
 .postprofile { 
-    border-color: #000;
-	border-width: 0 1px 0 0;
+	border: none;
 	display: inline-block;
     float: left;
 	height: 100%;
@@ -200,6 +203,41 @@ p.author {
 	text-indent: -9999px;
 	width: 19px;
 }
+.signature { 
+    border-top-color: #000;
+    font: italic 0.96em verdana;
+	color: #2f2f7d;
+    padding: 5px 10px; 
+}
+
+/* Quick Reply */
+
+.panel {
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 0px;
+	padding: 0px;
+}
+.panel h2 {
+	background-color: #ffffac;
+	border-bottom: 1px solid #000;
+	color: #000;
+	font-family: "Verdana", "Arial", "Bitstream Vera Sans", "Helvetica", sans-serif;
+	margin: 0px; 
+	padding: 5px 10px;
+	text-align: center;
+}
+.panel .fields1 dl:first-child {
+	display: none;
+}
+.panel .message-box {
+	margin: 0px auto;
+	padding-top: 10px;
+}
+.message-box textarea {
+	font-family: "Verdana", "Arial", "Bitstream Vera Sans", "Helvetica", sans-serif;
+	font-size: 12.535px;
+}
 
 /* Quote Stuff */
 
@@ -295,7 +333,7 @@ li.header dt, li.header dd {
 	margin: 0px -1%;
 }
 #nav-breadcrumbs {
-	margin: 0px 1%;
+	padding: 10px 1%;
 }
 .headerbar {
 	background-color: #ffffac;
@@ -395,6 +433,20 @@ a.forumtitle:hover, a.topictitle:hover {
 
 .sticky a::before {
 	content: "Stickied: "
+}
+
+dl.row-item dt {
+	background-position: 3px 50%;
+}
+
+.rdash {
+	font-size: 1.4em;
+	margin-bottom: 15px;
+	padding: 0 1%;
+}
+
+.rdash a:hover {
+	text-decoration: none;
 }
 
 /* Image stuff */
