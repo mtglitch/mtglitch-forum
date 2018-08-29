@@ -27,6 +27,10 @@ a:active {
 	text-decoration: underline;
 }
 
+.site-description h1 {
+	display: none;
+}
+
 .action-bar .button, .action-bar .search-box,.action-bar .dropdown-container {
 	float: right;
 }
@@ -210,7 +214,7 @@ p.author {
     padding: 5px 10px; 
 }
 
-/* Quick Reply */
+/* Quick Reply
 
 .panel {
 	background-color: #fff;
@@ -238,6 +242,8 @@ p.author {
 	font-family: "Verdana", "Arial", "Bitstream Vera Sans", "Helvetica", sans-serif;
 	font-size: 12.535px;
 }
+
+*/
 
 /* Quote Stuff */
 
