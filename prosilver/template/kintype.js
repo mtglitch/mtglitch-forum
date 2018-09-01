@@ -16,6 +16,6 @@ $('.AI').each(function() {
 
 quotetext = $('#postform').find('#message').val();
 if (quotetext) {
-  quotetext = quotetext.replace(/\[AI\].*\[\/AI\]/g, "");
-  $('#postform').find('#message').val(quotetext.replace(/\[AI\=.*\]/g, ""));
+  quotetext = quotetext.replace(/\[AI\].*?\[\/AI\]/g, "");
+  $('#postform').find('#message').val(quotetext.replace(/\[AI\=.*?\]/g, ""));
 }
