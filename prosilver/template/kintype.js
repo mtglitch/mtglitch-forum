@@ -13,3 +13,9 @@ $('.AI').each(function() {
   
   avatar.attr('src', url);
 });
+
+quotetext = $('#postform').find('#message').val();
+if (quotetext) {
+  $('#postform').find('#message').val(quotetext.replace(/\[AI\].*\[\/AI\]/g, ""));
+  $('#postform').find('#message').val(quotetext.replace(/\[AI\=.*\]/g, ""));
+}
