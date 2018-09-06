@@ -187,10 +187,13 @@ p.author {
 	font-family: Verdana, Arial, sans-serif;
     font-size: 12.535px !important;
 }
+.hasjs .postbody .post-buttons {
+	max-width: 100%;
+}
 .has-profile .post-buttons {
 	bottom: 3px;
-	right: 23px;
 	top: auto;
+	width: 100%;
 }
 .has-profile .post-buttons .button {
 	border: none;
@@ -204,6 +207,8 @@ p.author {
 .post-buttons .fa-quote-left {
     background: url('./images/p_quote.png') no-repeat;	
 	height: 19px;
+	right: 23px;
+	position: absolute;
 	text-indent: -9999px;
 	width: 53px;
 }

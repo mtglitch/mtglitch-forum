@@ -1,0 +1,18 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			waifu (ohg odwhata midoi n.g.x style)
+	Based on style:     jank
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		artif Limited ( https://www.mtglitch.com/ )
+    --------------------------------------------------------------
+*/
+.site-description {
+	background-image: url(./images/bug.png), url(./images/dragons.png), url(./images/azuki.png), url(./images/michiru.png);
+	background-position: left center, left 134px center, right 208px center, right center;
+	background-repeat: no-repeat;
+	height: 161px;
+	width: 100%;
+}
+.site_logo {
+	background: none;
+}
