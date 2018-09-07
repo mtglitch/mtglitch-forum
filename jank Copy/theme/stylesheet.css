@@ -38,18 +38,17 @@ a:active {
 	float: left;
 }
 .pagination {
-	float: left;
-	margin-top: 5px;
+	float: left;	
 }
-.pagination li a, .pagination li.active span, .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: none;
-    border: none;
-	box-shadow: none;
-	filter: none;
-	font-size: 11px;
-	font-weight: normal;
-	-webkit-box-shadow: none;
-	color: #000;
+dd.lastpost {
+	width: 15%;
+	font-size: 1.1em;
+}
+dd.rarity {
+	width: 10%;
+	text-align: center;
+	line-height: 2.2em;
+	font-size: 1.2em;
 }
 .bg1,.bg2 {
 	background-color: #fff;
@@ -191,7 +190,7 @@ p.author {
 	max-width: 100%;
 }
 .has-profile .post-buttons {
-	bottom: 3px;
+	bottom: 0px;
 	top: auto;
 	width: 100%;
 }
@@ -204,10 +203,29 @@ p.author {
 .fa-exclamation {
 	display: none !important;
 }
+.post-buttons .fa-pencil {
+	background: url('./images/p_edit.png') no-repeat;
+	bottom: 5px;
+	height: 19px;
+	left: 213px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 53px;
+}
+.post-buttons .fa-times {
+	background: url('./images/p_delete.png') no-repeat;
+	bottom: 5px;
+	height: 19px;
+	left: 270px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 53px;
+}
 .post-buttons .fa-quote-left {
     background: url('./images/p_quote.png') no-repeat;	
+	bottom: 5px;
 	height: 19px;
-	right: 23px;
+	right: 29px;
 	position: absolute;
 	text-indent: -9999px;
 	width: 53px;
