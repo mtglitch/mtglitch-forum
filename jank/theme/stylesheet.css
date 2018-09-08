@@ -349,6 +349,12 @@ blockquote cite:before, .uncited:before {
 ul.topiclist dt {
 	font-size: 10px;
 }
+
+ul.topiclist dl {
+	position: relative;
+	display: flex;
+}
+
 .forums .ul.topiclist dt {
 	height: 47px;
 }
