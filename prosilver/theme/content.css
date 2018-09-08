@@ -174,7 +174,7 @@ dl a.row-item-link {						/* topic row icon links */
 	margin-left: 9px;
 }
 
-dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
+dd.posts, dd.topics, dd.views, dd.extra, dd.mark, dd.forum, dd.author {
 	width: 80px;
 	text-align: center;
 	line-height: 2.2em;
@@ -183,6 +183,10 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 
 dd.posts, dd.topics, dd.views {
 	width: 95px;
+}
+
+dd.forum, dd.author {
+        width: 200px;
 }
 
 /* List in forum description */
