@@ -1,6 +1,6 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
-	Style name:			jank (ohg odwhata midoi n.g.x style)
+	Style name:			jank copy (ohg odwhata midoi n.g.x style)
 	Based on style:
 	Original author:	Tom Beddard ( http://www.subblue.com/ )
 	Modified by:		artif Limited ( https://www.mtglitch.com/ )
@@ -221,6 +221,13 @@ p.author {
 	text-indent: -9999px;
 	width: 53px;
 }
+.radash {
+	bottom:5px;
+	height: 19px;
+	position: absolute;
+	right: 87px;
+	width: 53px;
+}
 .post-buttons .fa-quote-left {
     background: url('./images/p_quote.png') no-repeat;	
 	bottom: 5px;
@@ -349,6 +356,12 @@ blockquote cite:before, .uncited:before {
 ul.topiclist dt {
 	font-size: 10px;
 }
+
+ul.topiclist dl {
+	position: relative;
+	display: flex;
+}
+
 .forums .ul.topiclist dt {
 	height: 47px;
 }
