@@ -115,6 +115,10 @@ function unEscapeHtml(text) {
 function quickQuote(author, escapedMessage) {
   var message = unEscapeHtml(escapedMessage);
   var quickreply = document.getElementById('quickreply');
+  message = message.replace(/\[AI\].*?\[\/AI\]/gi, "");
+  message = message.replace(/\[AI\=.*?\]/gi, "");
+
+
   //quickreply.value = "";
   if(quickreply.value.length > 0)
   {
