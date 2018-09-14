@@ -1,5 +1,5 @@
 var url, avatar;
-$('.AI').each(function() { 
+$('.AI').not('blockquote .AI').each(function() { 
   url = $(this).attr('avatar');
   
   if ($(this).parents(".inner").find("img.avatar").length === 0) {
