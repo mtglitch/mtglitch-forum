@@ -44,7 +44,7 @@ dd.lastpost {
 	width: 15%;
 	font-size: 1.1em;
 }
-dd.rarity {
+dd.author {
 	width: 10%;
 	text-align: center;
 	line-height: 2.2em;
@@ -523,17 +523,17 @@ dl.row-item dt {
 .forum_read_locked					{ background-image: url("./images/forum_locked.gif"); }
 .forum_read_subforum				{ background-image: url("./images/forum_read.png"); }
 .forum_unread						{ background-image: url("./images/forum_unread.png"); }
-.forum_unread_locked				{ background-image: url("./images/forum_locked.gif"); }
+.forum_unread_locked				{ background-image: url("./images/forum_locked.png"); }
 .forum_unread_subforum				{ background-image: url("./images/forum_unread.png"); }
 
 .sticky_read						{ background-image: url("./images/topic_read.png"); }
 .sticky_read_mine					{ background-image: url("./images/topic_read.png"); }
-.sticky_read_locked					{ background-image: url("./images/topic_locked.gif"); }
-.sticky_read_locked_mine			{ background-image: url("./images/topic_locked.gif"); }
+.sticky_read_locked					{ background-image: url("./images/topic_locked.png"); }
+.sticky_read_locked_mine			{ background-image: url("./images/topic_locked.png"); }
 .sticky_unread						{ background-image: url("./images/topic_unread.png"); }
 .sticky_unread_mine					{ background-image: url("./images/topic_unread.png"); }
-.sticky_unread_locked				{ background-image: url("./images/topic_locked.gif"); }
-.sticky_unread_locked_mine			{ background-image: url("./images/topic_locked.gif"); }
+.sticky_unread_locked				{ background-image: url("./images/topic_locked.png"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/topic_locked.png"); }
 
 .topic_moved						{ background-image: url("./images/topic_moved.gif"); }
 .pm_read,
@@ -541,13 +541,13 @@ dl.row-item dt {
 .topic_read_mine					{ background-image: url("./images/topic_read.png"); }
 .topic_read_hot						{ background-image: url("./images/topic_read_hot.png"); }
 .topic_read_hot_mine				{ background-image: url("./images/topic_read_hot.png"); }
-.topic_read_locked					{ background-image: url("./images/topic_locked.gif"); }
-.topic_read_locked_mine				{ background-image: url("./images/topic_locked.gif"); }
+.topic_read_locked					{ background-image: url("./images/topic_locked.png"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_locked.png"); }
 .pm_unread,
 .topic_unread						{ background-image: url("./images/topic_unread.png"); }
 .topic_unread_mine					{ background-image: url("./images/topic_unread.png"); }
 .topic_unread_hot					{ background-image: url("./images/topic_unread_hot.png"); }
 .topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot.png"); }
-.topic_unread_locked				{ background-image: url("./images/topic_locked.gif"); }
-.topic_unread_locked_mine			{ background-image: url("./images/topic_locked.gif"); }
+.topic_unread_locked				{ background-image: url("./images/topic_locked.png"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_locked.png"); }
 	

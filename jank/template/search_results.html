@@ -66,6 +66,8 @@
 			<li class="header">
 				<dl class="row-item">
 					<dt><div class="list-inner">{L_TOPICS}</div></dt>
+					<dd class="author">{L_AUTHOR}</dd>
+					<dd class="atforum">{L_FORUM}</dd>
 					<dd class="posts">{L_REPLIES}</dd>
 					<dd class="views">{L_VIEWS}</dd>
 					<dd class="lastpost"><span>{L_LAST_POST}</span></dd>
@@ -83,11 +85,10 @@
 						<div class="list-inner">
 							<!-- EVENT topiclist_row_prepend -->
 							<!-- IF searchresults.S_UNREAD_TOPIC and not S_IS_BOT -->
-								<a class="unread" href="{searchresults.U_NEWEST_POST}">
-									<i class="icon fa-file fa-fw icon-red icon-md" aria-hidden="true"></i><span class="sr-only">{L_NEW_POST}</span>
-								</a>
+								<a href="{searchresults.U_NEWEST_POST}" class="topictitle">{searchresults.TOPIC_TITLE}</a>
+					        <!-- ELSE -->
+						     <a href="{searchresults.U_LAST_POST}" class="topictitle">{searchresults.TOPIC_TITLE}</a>
 							<!-- ENDIF -->
-							<a href="{searchresults.U_VIEW_TOPIC}" class="topictitle">{searchresults.TOPIC_TITLE}</a>
 							<!-- IF searchresults.S_TOPIC_UNAPPROVED or searchresults.S_POSTS_UNAPPROVED -->
 								<a href="{searchresults.U_MCP_QUEUE}" title="{L_TOPIC_UNAPPROVED}">
 									<i class="icon fa-question fa-fw icon-blue" aria-hidden="true"></i><span class="sr-only">{L_TOPIC_UNAPPROVED}</span>
@@ -139,6 +140,8 @@
 							<!-- EVENT topiclist_row_append -->
 						</div>
 					</dt>
+                    <dd class="posts">{searchresults.TOPIC_AUTHOR_FULL} <dfn>{L_AUTHOR}</dfn></dd>
+					<dd class="posts"><a href="{searchresults.U_VIEW_FORUM}">{searchresults.FORUM_TITLE}</a></dd>
 					<dd class="posts">{searchresults.TOPIC_REPLIES} <dfn>{L_REPLIES}</dfn></dd>
 					<dd class="views">{searchresults.TOPIC_VIEWS} <dfn>{L_VIEWS}</dfn></dd>
 					<dd class="lastpost">

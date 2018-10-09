@@ -16,3 +16,8 @@
 .site_logo {
 	background: none;
 }
+
+.forum_read							{ background-image: url("./images/forum_read.png"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read.png"); }
+.forum_unread						{ background-image: url("./images/forum_unread.png"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread.png"); }
