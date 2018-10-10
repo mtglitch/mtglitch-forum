@@ -510,6 +510,15 @@ dl.row-item dt {
 	text-decoration: none;
 }
 
+.flutter {
+	font-size: 1.2em;
+	margin-bottom: 16.5px;
+}
+
+.flutter a:hover {
+	text-decoration: none;
+}
+
 /* Image stuff */
 
 .forums dl.row-item { 

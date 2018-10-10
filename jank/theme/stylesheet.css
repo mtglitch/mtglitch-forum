@@ -510,6 +510,15 @@ dl.row-item dt {
 	text-decoration: none;
 }
 
+.flutter {
+	font-size: 1.2em;
+	margin-bottom: 16.5px;
+}
+
+.flutter a:hover {
+	text-decoration: none;
+}
+
 /* Image stuff */
 
 .forums dl.row-item { 
@@ -523,7 +532,7 @@ dl.row-item dt {
 .forum_read_locked					{ background-image: url("./images/forum_locked.gif"); }
 .forum_read_subforum				{ background-image: url("./images/forum_read.png"); }
 .forum_unread						{ background-image: url("./images/forum_unread.png"); }
-.forum_unread_locked				{ background-image: url("./images/forum_locked.gif"); }
+.forum_unread_locked				{ background-image: url("./images/forum_locked.png"); }
 .forum_unread_subforum				{ background-image: url("./images/forum_unread.png"); }
 
 .sticky_read						{ background-image: url("./images/topic_read.png"); }
@@ -541,8 +550,8 @@ dl.row-item dt {
 .topic_read_mine					{ background-image: url("./images/topic_read.png"); }
 .topic_read_hot						{ background-image: url("./images/topic_read_hot.png"); }
 .topic_read_hot_mine				{ background-image: url("./images/topic_read_hot.png"); }
-.topic_read_locked					{ background-image: url("./images/topic_locked.gif"); }
-.topic_read_locked_mine				{ background-image: url("./images/topic_locked.gif"); }
+.topic_read_locked					{ background-image: url("./images/topic_locked.png"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_locked.png"); }
 .pm_unread,
 .topic_unread						{ background-image: url("./images/topic_unread.png"); }
 .topic_unread_mine					{ background-image: url("./images/topic_unread.png"); }

@@ -11,13 +11,46 @@
 	background-position: left center, left 134px center, right 208px center, right center;
 	background-repeat: no-repeat;
 	height: 161px;
+	position: relative;
 	width: 100%;
+}
+.site-description a {
+	display: block;
+	position: absolute;
+}
+a.logo { 
+    height: 162px;
+	width: 144px;
+	left: 0px;
+}
+a.doragon {
+	height: 162px;
+	width: 294px;
+	left: 144px;
+	top: 0px;
+}
+a.azuki {
+	height: 162px;
+	width: 202px;
+	right: 210px;
+	top: 0px;
+}
+	
+a.michiru {
+	height: 162px;
+	width: 210px;
+	right: 0px;
+	top: 0px;
 }
 .site_logo {
 	background: none;
 }
 
-.forum_read							{ background-image: url("./images/forum_read.png"); }
-.forum_read_subforum				{ background-image: url("./images/forum_read.png"); }
-.forum_unread						{ background-image: url("./images/forum_unread.png"); }
-.forum_unread_subforum				{ background-image: url("./images/forum_unread.png"); }
+.forums dl.row-item dt .list-inner {
+	padding-left: 85px;
+}
+
+.forum_read							{ background-image: url("./images/forum_read.png");   height: 64px;  }
+.forum_read_subforum				{ background-image: url("./images/forum_read.png");   height: 64px;  }
+.forum_unread						{ background-image: url("./images/forum_unread.png"); height: 64px;  }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread.png"); height: 64px;  }
