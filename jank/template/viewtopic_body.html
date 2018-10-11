@@ -154,7 +154,9 @@
 			</dt>
 
 			<!-- EVENT viewtopic_body_postrow_rank_before -->
-			<!-- IF postrow.RANK_TITLE or postrow.RANK_IMG --><dd class="profile-rank">{postrow.RANK_TITLE}<!-- IF postrow.RANK_TITLE and postrow.RANK_IMG --><br /><!-- ENDIF -->{postrow.RANK_IMG}</dd><!-- ENDIF -->
+			<!-- IF postrow.S_PROFILE_PHPBB_CTITLE -->
+				<dd class="profile-rank">{postrow.PROFILE_PHPBB_CTITLE_VALUE}<!-- IF postrow.RANK_IMG --><br /><!-- ENDIF -->{postrow.RANK_IMG}</dd>
+     		<!-- ELSE --><dd class="profile-rank">{postrow.RANK_TITLE}<!-- IF postrow.RANK_TITLE and postrow.RANK_IMG --><br /><!-- ENDIF -->{postrow.RANK_IMG}</dd><!-- ENDIF -->
 			<!-- EVENT viewtopic_body_postrow_rank_after -->
 
 		<!-- IF postrow.POSTER_POSTS != '' --><dd class="profile-posts"><strong>{L_POSTS}{L_COLON}</strong> <!-- IF postrow.U_SEARCH !== '' --><a href="{postrow.U_SEARCH}"><!-- ENDIF -->{postrow.POSTER_POSTS}<!-- IF postrow.U_SEARCH !== '' --></a><!-- ENDIF --></dd><!-- ENDIF -->
@@ -165,13 +167,8 @@
 			<!-- Use a construct like this to include admin defined profile fields. Replace FIELD1 with the name of your field. -->
 			<dd><strong>{postrow.PROFILE_FIELD1_NAME}{L_COLON}</strong> {postrow.PROFILE_FIELD1_VALUE}</dd>
 		<!-- ENDIF -->
-
+		
 		<!-- EVENT viewtopic_body_postrow_custom_fields_before -->
-		<!-- BEGIN custom_fields -->
-			<!-- IF not postrow.custom_fields.S_PROFILE_CONTACT -->
-				<dd class="profile-custom-field profile-{postrow.custom_fields.PROFILE_FIELD_IDENT}"><strong>{postrow.custom_fields.PROFILE_FIELD_NAME}{L_COLON}</strong> {postrow.custom_fields.PROFILE_FIELD_VALUE}</dd>
-			<!-- ENDIF -->
-		<!-- END custom_fields -->
 		<!-- EVENT viewtopic_body_postrow_custom_fields_after -->
 
 		<!-- EVENT viewtopic_body_contact_fields_before -->
