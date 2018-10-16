@@ -527,6 +527,15 @@ dl.row-item dt {
 	min-height: 47px;
 }
 
+.player-title {
+	cursor: pointer;
+}
+.player-title a:focus, .player-title a:hover {
+	color: #fff;
+	text-decoration: none;
+	transition: color .1s;
+}
+
 .forum_link							{ background-image: url("./images/forum_link.gif"); }
 .forum_read							{ background-image: url("./images/forum_read.png"); }
 .forum_read_locked					{ background-image: url("./images/forum_locked.gif"); }

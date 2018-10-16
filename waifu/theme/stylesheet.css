@@ -50,6 +50,17 @@ a.michiru {
 	padding-left: 85px;
 }
 
+.youtube-player:hover .play {
+      background: url("https://i.imgur.com/CyeDtWT.gif") no-repeat;
+	  bottom: 0px;
+	  height: 193px;
+	  left: 34%;
+	  margin-top: 0;
+	  top: auto;
+	  transition-property: none;
+	  width: 278px;
+}
+
 .forum_read							{ background-image: url("./images/forum_read.png");   height: 64px;  }
 .forum_read_subforum				{ background-image: url("./images/forum_read.png");   height: 64px;  }
 .forum_unread						{ background-image: url("./images/forum_unread.png"); height: 64px;  }
