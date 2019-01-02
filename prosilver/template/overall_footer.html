@@ -63,16 +63,16 @@
 	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
 </div>
 
-<script type="text/javascript" src="{T_JQUERY_LINK}"></script>
-<!-- IF S_ALLOW_CDN --><script type="text/javascript">window.jQuery || document.write('\x3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}">\x3C/script>');</script><!-- ENDIF -->
-<script type="text/javascript" src="{T_ASSETS_PATH}/javascript/core.js?assets_version={T_ASSETS_VERSION}"></script>
+<script src="{T_JQUERY_LINK}"></script>
+<!-- IF S_ALLOW_CDN --><script>window.jQuery || document.write('\x3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}">\x3C/script>');</script><!-- ENDIF -->
+<script src="{T_ASSETS_PATH}/javascript/core.js?assets_version={T_ASSETS_VERSION}"></script>
 <!-- INCLUDEJS forum_fn.js -->
 <!-- INCLUDEJS ajax.js -->
 <!-- INCLUDEJS you.js -->
 <!-- INCLUDEJS youtube.js -->
 <!-- INCLUDEJS kintype.js -->
 <!-- IF S_ALLOW_CDN -->
-	<script type="text/javascript">
+	<script>
 		(function($){
 			var $fa_cdn = $('head').find('link[rel="stylesheet"]').first(),
 				$span = $('<span class="fa" style="display:none"></span>').appendTo('body');
@@ -89,26 +89,26 @@
 	<script src="{T_ASSETS_PATH}/cookieconsent/cookieconsent.min.js?assets_version={T_ASSETS_VERSION}"></script>
 	<script>
 		if (typeof window.cookieconsent === "object") {
-		window.addEventListener("load", function(){
-			window.cookieconsent.initialise({
-				"palette": {
-					"popup": {
-						"background": "#0F538A"
+			window.addEventListener("load", function(){
+				window.cookieconsent.initialise({
+					"palette": {
+						"popup": {
+							"background": "#0F538A"
+						},
+						"button": {
+							"background": "#E5E5E5"
+						}
 					},
-					"button": {
-						"background": "#E5E5E5"
-					}
-				},
-				"theme": "classic",
-				"content": {
-					"message": "{LA_COOKIE_CONSENT_MSG}",
-					"dismiss": "{LA_COOKIE_CONSENT_OK}",
-					"link": "{LA_COOKIE_CONSENT_INFO}",
+					"theme": "classic",
+					"content": {
+						"message": "{LA_COOKIE_CONSENT_MSG}",
+						"dismiss": "{LA_COOKIE_CONSENT_OK}",
+						"link": "{LA_COOKIE_CONSENT_INFO}",
 						"href": "{UA_PRIVACY}"
 					}
 				});
 			});
-				}
+		}
 	</script>
 <!-- ENDIF -->
 
@@ -141,9 +141,9 @@ function unEscapeHtml(text) {
 function quickQuote(author, escapedMessage) {
   var message = unEscapeHtml(escapedMessage);
   var quickreply = document.getElementById('quickreply');
+
   message = message.replace(/\[AI\].*?\[\/AI\]/gi, "");
   message = message.replace(/\[AI\=.*?\]/gi, "");
-
 
   //quickreply.value = "";
   if(quickreply.value.length > 0)

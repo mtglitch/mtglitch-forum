@@ -181,12 +181,12 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark, dd.forum, dd.author {
 	font-size: 1.2em;
 }
 
-dd.posts, dd.topics, dd.views {
-	width: 95px;
-}
-
 dd.forum, dd.author {
         width: 200px;
+}
+
+dd.posts, dd.topics, dd.views {
+	width: 95px;
 }
 
 /* List in forum description */
