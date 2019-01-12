@@ -3,8 +3,8 @@
     .youtube-player {
       position: relative;
       padding-bottom: 0px;
-      height: 360px;
-      width: 640px;
+      height: 480px;
+      width: 854px;
       overflow: hidden;
       max-width: 100%;
       background: #000;
