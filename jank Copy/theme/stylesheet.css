@@ -410,8 +410,8 @@ li.header dt, li.header dd {
 }
 .site_logo {
 	background-image: url(./images/robot2.png);
-	height: 161px;
-	width: 428px;
+	height: 286px;
+	width: 100%;
 }
 .navbar {
 	background-color: #fff;
