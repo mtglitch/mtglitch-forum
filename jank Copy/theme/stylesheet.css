@@ -409,7 +409,6 @@ li.header dt, li.header dd {
 	padding: 0px;
 }
 .site_logo {
-	background-image: url(./images/robot<?php $random = rand(1,2); echo $random; ?>.png);
 	height: 286px;
 	width: 800px;
 }
