@@ -6,14 +6,6 @@
 	Modified by:		artif Limited ( https://www.mtglitch.com/ )
     --------------------------------------------------------------
 */
-.site-description {
-	background-image: url(./images/bug.png), url(./images/dragons.png), url(./images/azuki.png), url(./images/michiru.png);
-	background-position: left center, left 134px center, right 208px center, right center;
-	background-repeat: no-repeat;
-	height: 161px;
-	position: relative;
-	width: 100%;
-}
 .site-description a {
 	display: block;
 	position: absolute;
@@ -41,9 +33,6 @@ a.michiru {
 	width: 210px;
 	right: 0px;
 	top: 0px;
-}
-.site_logo {
-	background: none;
 }
 
 .forums dl.row-item dt .list-inner {
