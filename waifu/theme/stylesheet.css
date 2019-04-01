@@ -13,6 +13,7 @@
 	width: 100%;
 }
 .site_description img {
+	height: 162px;
 	position: absolute;
 }
 .logo {
@@ -24,9 +25,13 @@
 }
 
 .logo img {
-	height: 162px;
 	width: 144px;
 	left 0px;
+}
+.doragon img {
+	width: 294px;
+	left: 144px;
+	top: 0xp;
 }
 	
 
