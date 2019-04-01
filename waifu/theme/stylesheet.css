@@ -34,13 +34,14 @@
 	top: 0px;
 }
 .azuki img {
-	width: 202px;
+	width: 100%;
 	right: 210px;
 	top: 0px;
 }
 .michiru img {
 	right: 0px;
 	top: 0px;
+	width: 210px;
 }
 	
 
