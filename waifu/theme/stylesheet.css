@@ -14,6 +14,7 @@
 .site-description a {
 	display: block;
 	position: absolute;
+	border: 5px solid yellow; 
 }
 
 a.logo { 
