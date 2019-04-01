@@ -6,41 +6,6 @@
 	Modified by:		artif Limited ( https://www.mtglitch.com/ )
     --------------------------------------------------------------
 */
-.site-description {
-	height: 162px;
-	position: relative;
-	width: 100%;
-}
-
-.site-description a {
-	display: block;
-	position: absolute;
-	border: 5px solid yellow; 
-}
-
-a.logo { 
-    height: 162px;
-	width: 144px;
-	left: 0px;
-}
-a.doragon {
-	height: 162px;
-	width: 294px;
-	left: 144px;
-	top: 0px;
-}
-a.azuki {
-	height: 162px;
-	width: 202px;
-	right: 210px;
-	top: 0px;
-}
-a.michiru {
-	height: 162px;
-	width: 210px;
-	right: 0px;
-	top: 0px;
-}
 
 .forums dl.row-item dt .list-inner {
 	padding-left: 85px;
