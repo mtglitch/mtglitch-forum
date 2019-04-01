@@ -16,7 +16,9 @@
 	position: absolute;
 	border: 5px solid yellow; 
 }
-
+.site-description img {
+	position: relative;
+}
 a.logo { 
     height: 162px;
 	width: 144px;
