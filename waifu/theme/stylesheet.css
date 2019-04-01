@@ -10,10 +10,22 @@
 	display: block;
 	position: absolute;
 }
+.logo img {
+	background-position: left center;
+	background-repeat: no-repeat;
+	height: 162px;
+	width: 100%;
+}
 a.logo { 
     height: 162px;
 	width: 144px;
 	left: 0px;
+}
+.doragon img {
+	background-position: left 134px center;
+	background-repeat: no-repeat;
+	height: 162px;
+	width: 100%;
 }
 a.doragon {
 	height: 162px;
@@ -21,13 +33,24 @@ a.doragon {
 	left: 144px;
 	top: 0px;
 }
+.azuki img {
+	background-position: right 208px center;
+	background-repeat: no-repeat;
+	height: 162px;
+	width: 100%;
+}
 a.azuki {
 	height: 162px;
 	width: 202px;
 	right: 210px;
 	top: 0px;
 }
-	
+.michiru img {
+    background-position: right center;
+	background-repeat: no-repeat;
+	height: 162px;
+	width: 100%;
+}
 a.michiru {
 	height: 162px;
 	width: 210px;
