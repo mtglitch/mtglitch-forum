@@ -11,9 +11,14 @@
 	height: 162px;
 	width: 100%;
 }
+.logo {
+	width: 0px;
+}
 .site_logo {
 	height: 0px;
+	width: 0px;
 }
+
 
 .forums dl.row-item dt .list-inner {
 	padding-left: 85px;
