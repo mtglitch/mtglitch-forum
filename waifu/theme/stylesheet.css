@@ -10,6 +10,9 @@
 .site_description {
 	height: 162px;
 }
+.site_logo {
+	height: 0px;
+}
 
 .forums dl.row-item dt .list-inner {
 	padding-left: 85px;
