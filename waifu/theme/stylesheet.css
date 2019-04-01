@@ -7,6 +7,10 @@
     --------------------------------------------------------------
 */
 
+.site_logo {
+	height: 162px;
+}
+
 .forums dl.row-item dt .list-inner {
 	padding-left: 85px;
 }
