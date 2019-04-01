@@ -409,6 +409,7 @@ li.header dt, li.header dd {
 	padding: 0px;
 }
 .site_logo {
+	background: none;
 	height: 161px;
 	width: 428px;
 }
