@@ -409,7 +409,7 @@ li.header dt, li.header dd {
 	padding: 0px;
 }
 .site_logo {
-	background: none;
+	background-image: url(./images/robot{MISETINGS}.png);
 	height: 286px;
 	width: 800px;
 }
