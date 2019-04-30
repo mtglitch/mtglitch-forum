@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var updateFrequency = 1 * 60 * 1000; //two minutes
+  var updateFrequency = 1 * 60 * 1000; //one minute
   
   window.lastUpdateTime = new Date();
   setInterval(checkNewPosts, updateFrequency);
