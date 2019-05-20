@@ -63,6 +63,9 @@ dd.author {
 	background: url('./images/hack.gif') repeat-y;
 	background-position: 202px 0px; 
 }
+.topicreview .post .inner {
+	background: none;
+}
 .postprofile a {
 	color: #000;
 	text-decoration: underline;
