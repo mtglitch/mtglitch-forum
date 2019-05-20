@@ -66,6 +66,9 @@ dd.author {
 .topicreview .post .inner {
 	background: none;
 }
+.topicreview .h3 {
+	display: inline;
+}
 .postprofile a {
 	color: #000;
 	text-decoration: underline;
